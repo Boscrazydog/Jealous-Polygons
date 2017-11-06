@@ -142,12 +142,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\gllibrary\gllibrary\glmenu.cpp" />
+    <ClCompile Include="..\..\gllibrary\gllibrary\glpoints.cpp" />
+    <ClCompile Include="..\..\gllibrary\gllibrary\glpolygon.cpp" />
+    <ClCompile Include="..\..\gllibrary\gllibrary\glpolyline.cpp" />
+    <ClCompile Include="..\..\gllibrary\gllibrary\glvector.cpp" />
+    <ClCompile Include="..\..\gllibrary\gllibrary\Utils.cpp" />
     <ClCompile Include="avatar.cpp" />
     <ClCompile Include="bullet.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="npc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\gllibrary\gllibrary\glmenu.h" />
+    <ClInclude Include="..\..\gllibrary\gllibrary\globalgl.h" />
+    <ClInclude Include="..\..\gllibrary\gllibrary\glpoints.h" />
+    <ClInclude Include="..\..\gllibrary\gllibrary\glpolygon.h" />
+    <ClInclude Include="..\..\gllibrary\gllibrary\glpolyline.h" />
+    <ClInclude Include="..\..\gllibrary\gllibrary\glvector.h" />
     <ClInclude Include="avatar.h" />
     <ClInclude Include="bullet.h" />
     <ClInclude Include="npc.h" />
